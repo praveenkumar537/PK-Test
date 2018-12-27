@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.sforce.cd</groupId>
+		<artifactId>CD-parent</artifactId>
+		<version>1.0.2</version>
+	</parent>
+	<groupId>com.sforce.MyTeam.ApexUnit</groupId>
+	<artifactId>ApexUnitExecutor</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ApexUnit template</name>
+	<description>ApexUnit template project. Users to use this template project to use ApexUnit tool</description>
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>com.sforce.cd.ApexUnit</groupId>
+			<artifactId>ApexUnit-core</artifactId>
+			<version>2.2.0.3</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,12 @@
+{
+  "protections": {
+    "protectbranch": true,
+    "requirereview": true,
+    "dismissstalereviews": true,
+    "requirecodeownerreviews": true,
+    "requirestatuschecks": true,
+    "uptodatebranch": true,
+    "statuschecks": ["CAB Approved"],
+    "includeadmins": true
+  }
+}
